@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="WindowsProject4.cpp" />
+    <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="WindowsProject4.rc" />
@@ -149,7 +149,11 @@
     <Image Include="WindowsProject4.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="differentialandIntegral.h" />
     <ClInclude Include="Four arithmetic operations.h" />
+    <ClInclude Include="Other calculations.h" />
+    <ClInclude Include="mathandPhysicsdefine.h" />
+    <ClInclude Include="Trigonometric function.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -2,6 +2,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+#include"Other calculations.h"
+#include"Trigonometric function.h"
+#include"mathandPhysicsdefine.h"
 //‘«‚µŽZ
 double plus(double x,double y)
 {
